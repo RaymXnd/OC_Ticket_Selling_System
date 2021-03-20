@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DD7A6DB1E4C47F200E1C59F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7A6DA1E4C47F200E1C59F /* main.m */; };
+		4DD7A6E81E4C4E6400E1C59F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7A6E71E4C4E6400E1C59F /* main.m */; };
+		4DD7A6EE1E4C4E9C00E1C59F /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7A6ED1E4C4E9C00E1C59F /* Common.m */; };
+		4DD7A6F11E4C4F8500E1C59F /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7A6F01E4C4F8500E1C59F /* Ticket.m */; };
+		4DD7A6F41E4C509000E1C59F /* MovieTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7A6F31E4C509000E1C59F /* MovieTicket.m */; };
+		4DD7A6F71E4C510C00E1C59F /* Cinema.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7A6F61E4C510C00E1C59F /* Cinema.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DD7A6D51E4C47F200E1C59F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4DD7A6E31E4C4E6400E1C59F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4DD7A6D71E4C47F200E1C59F /* OC6-购票系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC6-购票系统"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD7A6DA1E4C47F200E1C59F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DD7A6E51E4C4E6400E1C59F /* 购票系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "购票系统"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD7A6E71E4C4E6400E1C59F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DD7A6EC1E4C4E9C00E1C59F /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		4DD7A6ED1E4C4E9C00E1C59F /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		4DD7A6EF1E4C4F8500E1C59F /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticket.h; sourceTree = "<group>"; };
+		4DD7A6F01E4C4F8500E1C59F /* Ticket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ticket.m; sourceTree = "<group>"; };
+		4DD7A6F21E4C509000E1C59F /* MovieTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTicket.h; sourceTree = "<group>"; };
+		4DD7A6F31E4C509000E1C59F /* MovieTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTicket.m; sourceTree = "<group>"; };
+		4DD7A6F51E4C510C00E1C59F /* Cinema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cinema.h; sourceTree = "<group>"; };
+		4DD7A6F61E4C510C00E1C59F /* Cinema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cinema.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD7A6D41E4C47F200E1C59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD7A6E21E4C4E6400E1C59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DD7A6CE1E4C47F200E1C59F = {
+			isa = PBXGroup;
+			children = (
+				4DD7A6D91E4C47F200E1C59F /* OC6-购票系统 */,
+				4DD7A6E61E4C4E6400E1C59F /* 购票系统 */,
+				4DD7A6D81E4C47F200E1C59F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD7A6D81E4C47F200E1C59F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7A6D71E4C47F200E1C59F /* OC6-购票系统 */,
+				4DD7A6E51E4C4E6400E1C59F /* 购票系统 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD7A6D91E4C47F200E1C59F /* OC6-购票系统 */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7A6DA1E4C47F200E1C59F /* main.m */,
+			);
+			path = "OC6-购票系统";
+			sourceTree = "<group>";
+		};
+		4DD7A6E61E4C4E6400E1C59F /* 购票系统 */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7A6F91E4C7D5000E1C59F /* 电影院 */,
+				4DD7A6F81E4C7CEF00E1C59F /* 基础信息 */,
+				4DD7A6E71E4C4E6400E1C59F /* main.m */,
+			);
+			path = "购票系统";
+			sourceTree = "<group>";
+		};
+		4DD7A6F81E4C7CEF00E1C59F /* 基础信息 */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7A6EC1E4C4E9C00E1C59F /* Common.h */,
+				4DD7A6ED1E4C4E9C00E1C59F /* Common.m */,
+			);
+			name = "基础信息";
+			sourceTree = "<group>";
+		};
+		4DD7A6F91E4C7D5000E1C59F /* 电影院 */ = {
+			isa = PBXGroup;
+			children = (
+				4DD7A6EF1E4C4F8500E1C59F /* Ticket.h */,
+				4DD7A6F01E4C4F8500E1C59F /* Ticket.m */,
+				4DD7A6F21E4C509000E1C59F /* MovieTicket.h */,
+				4DD7A6F31E4C509000E1C59F /* MovieTicket.m */,
+				4DD7A6F51E4C510C00E1C59F /* Cinema.h */,
+				4DD7A6F61E4C510C00E1C59F /* Cinema.m */,
+			);
+			name = "电影院";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD7A6D61E4C47F200E1C59F /* OC6-购票系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD7A6DE1E4C47F200E1C59F /* Build configuration list for PBXNativeTarget "OC6-购票系统" */;
+			buildPhases = (
+				4DD7A6D31E4C47F200E1C59F /* Sources */,
+				4DD7A6D41E4C47F200E1C59F /* Frameworks */,
+				4DD7A6D51E4C47F200E1C59F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC6-购票系统";
+			productName = "OC6-购票系统";
+			productReference = 4DD7A6D71E4C47F200E1C59F /* OC6-购票系统 */;
+			productType = "com.apple.product-type.tool";
+		};
+		4DD7A6E41E4C4E6400E1C59F /* 购票系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD7A6EB1E4C4E6400E1C59F /* Build configuration list for PBXNativeTarget "购票系统" */;
+			buildPhases = (
+				4DD7A6E11E4C4E6400E1C59F /* Sources */,
+				4DD7A6E21E4C4E6400E1C59F /* Frameworks */,
+				4DD7A6E31E4C4E6400E1C59F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "购票系统";
+			productName = "购票系统";
+			productReference = 4DD7A6E51E4C4E6400E1C59F /* 购票系统 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD7A6CF1E4C47F200E1C59F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Raymond;
+				TargetAttributes = {
+					4DD7A6D61E4C47F200E1C59F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4DD7A6E41E4C4E6400E1C59F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DD7A6D21E4C47F200E1C59F /* Build configuration list for PBXProject "OC6-购票系统" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DD7A6CE1E4C47F200E1C59F;
+			productRefGroup = 4DD7A6D81E4C47F200E1C59F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD7A6D61E4C47F200E1C59F /* OC6-购票系统 */,
+				4DD7A6E41E4C4E6400E1C59F /* 购票系统 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD7A6D31E4C47F200E1C59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD7A6DB1E4C47F200E1C59F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD7A6E11E4C4E6400E1C59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD7A6F41E4C509000E1C59F /* MovieTicket.m in Sources */,
+				4DD7A6F71E4C510C00E1C59F /* Cinema.m in Sources */,
+				4DD7A6EE1E4C4E9C00E1C59F /* Common.m in Sources */,
+				4DD7A6E81E4C4E6400E1C59F /* main.m in Sources */,
+				4DD7A6F11E4C4F8500E1C59F /* Ticket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4DD7A6DC1E4C47F200E1C59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4DD7A6DD1E4C47F200E1C59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4DD7A6DF1E4C47F200E1C59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DD7A6E01E4C47F200E1C59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DD7A6E91E4C4E6400E1C59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DD7A6EA1E4C4E6400E1C59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD7A6D21E4C47F200E1C59F /* Build configuration list for PBXProject "OC6-购票系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD7A6DC1E4C47F200E1C59F /* Debug */,
+				4DD7A6DD1E4C47F200E1C59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD7A6DE1E4C47F200E1C59F /* Build configuration list for PBXNativeTarget "OC6-购票系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD7A6DF1E4C47F200E1C59F /* Debug */,
+				4DD7A6E01E4C47F200E1C59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD7A6EB1E4C4E6400E1C59F /* Build configuration list for PBXNativeTarget "购票系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD7A6E91E4C4E6400E1C59F /* Debug */,
+				4DD7A6EA1E4C4E6400E1C59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DD7A6CF1E4C47F200E1C59F /* Project object */;
+}
